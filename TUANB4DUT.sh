@@ -58,7 +58,7 @@ echo                       "12. TOOLS REVERSE DNS";
 echo                       "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" | lolcat
 echo                       "13. TOOLS SCAN DIRECTORY SITE";
 echo                       "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" | lolcat
-echo                       "14. CHECK YOUR IP ADDRESS";
+echo                       "14. CHECK YOUR IP ADDRESS";
 echo                       "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" | lolcat
 echo                       "0. EXIT${enda}";
 echo                       "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" | lolcat
