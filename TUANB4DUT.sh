@@ -57,8 +57,10 @@ echo                       "■■■■■■■■■■
 echo                       "12. TOOLS REVERSE DNS";
 echo                       "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" | lolcat
 echo                       "13. TOOLS SCAN DIRECTORY SITE";
-echo                       "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" | lolcat
-echo                       "0. EXIT${enda}";
+echo                       "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" | lolcat
+echo                       "14. CHECK YOUR IP ADDRESS";
+echo                       "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" | lolcat
+echo                       "0. EXIT${enda}";
 echo                       "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" | lolcat
 echo ""
 read -p "root@TUANB4DUT=" pilihan;
@@ -158,6 +160,10 @@ chmod 777 REVERSEDNS.sh
 cd DIR
 chmod 777 dir.sh
 ./dir.sh
+
+;;
+
+14) curl https://api.myip.com/
 
 ;;
 
